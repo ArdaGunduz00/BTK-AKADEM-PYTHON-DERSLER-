@@ -14,3 +14,12 @@ for i in range (5):
 #sayginoztunc@gmail.com
 #github sandıkodasi
 #metaverse ve sanaltarla araştırılcak
+sayı = int(input("Sayı Giriniz:"))
+
+
+
+if sayı>10:
+    sayisonuc=sayı//10
+    for x in range(10, 100, 1):
+        if sayisonuc == x:
+            print(x)
